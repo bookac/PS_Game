@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: f3d3ceb43780638458dc15b238018535
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: CTRL_Head
+    100002: CTRL_L_Arm
+    100004: CTRL_L_Leg
+    100006: CTRL_Master
+    100008: CTRL_R_Arm
+    100010: CTRL_R_Leg
+    100012: CTRL_Spline
+    100014: //RootNode
+    100016: GEO_Hair
+    100018: GEO_Mesh
+    100020: GEO_SmellyBag
+    100022: GEO_SmellyBag2
+    100024: JNT_Chest
+    100026: JNT_Head
+    100028: JNT_Head_End
+    100030: JNT_L_Arm
+    100032: JNT_L_Arm_End
+    100034: JNT_L_Leg
+    100036: JNT_L_Leg_End
+    100038: JNT_R_Arm
+    100040: JNT_R_Arm_End
+    100042: JNT_R_Leg
+    100044: JNT_R_Leg_End
+    100046: JNT_Root
+    100048: JNT_Spline
+    400000: CTRL_Head
+    400002: CTRL_L_Arm
+    400004: CTRL_L_Leg
+    400006: CTRL_Master
+    400008: CTRL_R_Arm
+    400010: CTRL_R_Leg
+    400012: CTRL_Spline
+    400014: //RootNode
+    400016: GEO_Hair
+    400018: GEO_Mesh
+    400020: GEO_SmellyBag
+    400022: GEO_SmellyBag2
+    400024: JNT_Chest
+    400026: JNT_Head
+    400028: JNT_Head_End
+    400030: JNT_L_Arm
+    400032: JNT_L_Arm_End
+    400034: JNT_L_Leg
+    400036: JNT_L_Leg_End
+    400038: JNT_R_Arm
+    400040: JNT_R_Arm_End
+    400042: JNT_R_Leg
+    400044: JNT_R_Leg_End
+    400046: JNT_Root
+    400048: JNT_Spline
+    2300000: GEO_Hair
+    2300002: GEO_SmellyBag
+    2300004: GEO_SmellyBag2
+    3300000: GEO_Hair
+    3300002: GEO_SmellyBag
+    3300004: GEO_SmellyBag2
+    4300000: GEO_Mesh
+    4300002: GEO_Hair
+    4300004: GEO_SmellyBag
+    4300006: GEO_SmellyBag2
+    7400000: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: GEO_Mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CTRL_Master
+        weight: 1
+      - path: CTRL_Master/CTRL_L_Leg
+        weight: 1
+      - path: CTRL_Master/CTRL_R_Leg
+        weight: 1
+      - path: CTRL_Master/CTRL_Spline
+        weight: 1
+      - path: CTRL_Master/CTRL_Spline/CTRL_Head
+        weight: 1
+      - path: CTRL_Master/CTRL_Spline/CTRL_L_Arm
+        weight: 1
+      - path: CTRL_Master/CTRL_Spline/CTRL_R_Arm
+        weight: 1
+      - path: GEO_Mesh
+        weight: 1
+      - path: JNT_Root
+        weight: 1
+      - path: JNT_Root/JNT_L_Leg
+        weight: 1
+      - path: JNT_Root/JNT_L_Leg/JNT_L_Leg_End
+        weight: 1
+      - path: JNT_Root/JNT_R_Leg
+        weight: 1
+      - path: JNT_Root/JNT_R_Leg/JNT_R_Leg_End
+        weight: 1
+      - path: JNT_Root/JNT_Spline
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head/GEO_Hair
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head/JNT_Head_End
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm/GEO_SmellyBag
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm/JNT_L_Arm_End
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm/GEO_SmellyBag2
+        weight: 1
+      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm/JNT_R_Arm_End
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
