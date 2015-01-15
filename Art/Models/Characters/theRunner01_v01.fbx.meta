@@ -37,6 +37,7 @@ ModelImporter:
     100062: //RootNode
     100064: GEO_Mesh
     100066: GEO_Gun
+    100068: GEO_Chair
     400000: CTRL_Head
     400002: CTRL_L_Arm
     400004: CTRL_L_Leg
@@ -71,10 +72,13 @@ ModelImporter:
     400062: //RootNode
     400064: GEO_Mesh
     400066: GEO_Gun
+    400068: GEO_Chair
     2300000: GEO_Hair
     2300002: GEO_Gun
+    2300004: GEO_Chair
     3300000: GEO_Hair
     3300002: GEO_Gun
+    3300004: GEO_Chair
     4300000: GEO_L_Arm
     4300002: GEO_R_Arm
     4300004: GEO_L_Leg
@@ -87,6 +91,7 @@ ModelImporter:
     4300018: GEO_Hair
     4300020: GEO_Mesh
     4300022: GEO_Gun
+    4300024: GEO_Chair
     7400000: Hit01
     7400002: Sprint01
     7400004: Run01
@@ -331,80 +336,6 @@ ModelImporter:
       - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm/JNT_L_Arm_End
         weight: 1
       - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm/JNT_R_Arm_End
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Shot01
-      takeName: Take 001
-      firstFrame: 100
-      lastFrame: 120
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: CTRL_Master
-        weight: 1
-      - path: CTRL_Master/CTRL_L_Leg
-        weight: 1
-      - path: CTRL_Master/CTRL_R_Leg
-        weight: 1
-      - path: CTRL_Master/CTRL_Spline
-        weight: 1
-      - path: CTRL_Master/CTRL_Spline/CTRL_Head
-        weight: 1
-      - path: CTRL_Master/CTRL_Spline/CTRL_L_Arm
-        weight: 1
-      - path: CTRL_Master/CTRL_Spline/CTRL_R_Arm
-        weight: 1
-      - path: GEO_Mesh
-        weight: 1
-      - path: JNT_Root
-        weight: 1
-      - path: JNT_Root/JNT_L_Leg
-        weight: 1
-      - path: JNT_Root/JNT_L_Leg/JNT_L_Leg_End
-        weight: 1
-      - path: JNT_Root/JNT_R_Leg
-        weight: 1
-      - path: JNT_Root/JNT_R_Leg/JNT_R_Leg_End
-        weight: 1
-      - path: JNT_Root/JNT_Spline
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head/GEO_Hair
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_Head/JNT_Head_End
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_L_Arm/JNT_L_Arm_End
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm
-        weight: 1
-      - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm/GEO_Gun
         weight: 1
       - path: JNT_Root/JNT_Spline/JNT_Chest/JNT_R_Arm/JNT_R_Arm_End
         weight: 1
