@@ -38,6 +38,7 @@ ModelImporter:
     100064: GEO_Mesh
     100066: GEO_Gun
     100068: GEO_Chair
+    100070: ShadowPlane
     400000: CTRL_Head
     400002: CTRL_L_Arm
     400004: CTRL_L_Leg
@@ -73,12 +74,15 @@ ModelImporter:
     400064: GEO_Mesh
     400066: GEO_Gun
     400068: GEO_Chair
+    400070: ShadowPlane
     2300000: GEO_Hair
     2300002: GEO_Gun
     2300004: GEO_Chair
+    2300006: ShadowPlane
     3300000: GEO_Hair
     3300002: GEO_Gun
     3300004: GEO_Chair
+    3300006: ShadowPlane
     4300000: GEO_L_Arm
     4300002: GEO_R_Arm
     4300004: GEO_L_Leg
@@ -92,6 +96,7 @@ ModelImporter:
     4300020: GEO_Mesh
     4300022: GEO_Gun
     4300024: GEO_Chair
+    4300026: ShadowPlane
     7400000: Hit01
     7400002: Sprint01
     7400004: Run01
