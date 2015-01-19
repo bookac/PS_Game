@@ -28,6 +28,7 @@ ModelImporter:
     100044: JNT_R_Leg_End
     100046: JNT_Root
     100048: JNT_Spline
+    100050: ShadowPlane
     400000: CTRL_Head
     400002: CTRL_L_Arm
     400004: CTRL_L_Leg
@@ -53,16 +54,20 @@ ModelImporter:
     400044: JNT_R_Leg_End
     400046: JNT_Root
     400048: JNT_Spline
+    400050: ShadowPlane
     2300000: GEO_Hair
     2300002: GEO_SmellyBag
     2300004: GEO_SmellyBag2
+    2300006: ShadowPlane
     3300000: GEO_Hair
     3300002: GEO_SmellyBag
     3300004: GEO_SmellyBag2
+    3300006: ShadowPlane
     4300000: GEO_Mesh
     4300002: GEO_Hair
     4300004: GEO_SmellyBag
     4300006: GEO_SmellyBag2
+    4300008: ShadowPlane
     7400000: Walk
     9500000: //RootNode
     11100000: //RootNode
