@@ -10,15 +10,15 @@
 },
 "FrameBox.png":
 {
-	"frame": {"x":607,"y":2,"w":288,"h":288},
+	"frame": {"x":607,"y":2,"w":124,"h":124},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":6,"y":6,"w":288,"h":288},
-	"sourceSize": {"w":300,"h":300}
+	"spriteSourceSize": {"x":2,"y":2,"w":124,"h":124},
+	"sourceSize": {"w":128,"h":128}
 },
 "Play.png":
 {
-	"frame": {"x":2,"y":499,"w":128,"h":70},
+	"frame": {"x":733,"y":2,"w":128,"h":70},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":70},
@@ -26,7 +26,7 @@
 },
 "Play_Pres.png":
 {
-	"frame": {"x":132,"y":499,"w":127,"h":68},
+	"frame": {"x":863,"y":2,"w":127,"h":68},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":0,"y":2,"w":127,"h":68},
@@ -34,7 +34,7 @@
 },
 "RadialVignette.png":
 {
-	"frame": {"x":261,"y":499,"w":256,"h":256},
+	"frame": {"x":2,"y":499,"w":256,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":256},
@@ -42,7 +42,7 @@
 },
 "SolidWhite.png":
 {
-	"frame": {"x":519,"y":499,"w":64,"h":64},
+	"frame": {"x":260,"y":499,"w":64,"h":64},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
@@ -55,6 +55,6 @@
 	"format": "RGBA8888",
 	"size": {"w":1024,"h":1024},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:cc25e187132c0d961cdb5f7a684538c0:4b9f1354e1f56b5419bd09bbeed36c80:481db3b59f9d7471da26e66ed79df9fc$"
+	"smartupdate": "$TexturePacker:SmartUpdate:4d23b972a3165831d88813c22620718c:d2f01b416cf8043d428002094e5c6251:481db3b59f9d7471da26e66ed79df9fc$"
 }
 }
